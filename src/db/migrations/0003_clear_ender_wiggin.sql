@@ -1,0 +1,1 @@
+ALTER TABLE `system` ADD `activatedTo` text;
