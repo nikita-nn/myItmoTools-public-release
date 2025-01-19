@@ -1,0 +1,9 @@
+{
+  "main": "./build/index.js",
+  "output": "sea-prep.blob",
+  "files": [
+    "./build",
+    "./node_modules/better-sqlite3/build/Release/better_sqlite3.node"
+  ],
+  "disableExperimentalSEAWarning": true
+}

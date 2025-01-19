@@ -1,0 +1,1 @@
+ALTER TABLE `users` ADD `isTelegramLinked` text DEFAULT 'false' NOT NULL;

@@ -7,4 +7,5 @@ export const Users = sqliteTable("users", {
   access_token: text("access_token").notNull(),
   selected: text("selected").default("false"),
   timeToUpdate: integer("timeToUpdate", { mode: "timestamp" }),
+  isTelegramLinked: text("isTelegramLinked").notNull().default("false"),
 });
